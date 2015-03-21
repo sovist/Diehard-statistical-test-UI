@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\code_files\include\brg_endian.h" />
+    <ClInclude Include="..\code_files\include\brg_types.h" />
+    <ClInclude Include="..\code_files\include\copyright.h" />
+    <ClInclude Include="..\code_files\include\dab_bytedistrib.h" />
+    <ClInclude Include="..\code_files\include\dab_dct.h" />
+    <ClInclude Include="..\code_files\include\dab_filltree.h" />
+    <ClInclude Include="..\code_files\include\dab_filltree2.h" />
+    <ClInclude Include="..\code_files\include\dab_monobit2.h" />
+    <ClInclude Include="..\code_files\include\dieharder.h" />
+    <ClInclude Include="..\code_files\include\dieharder_rng_types.h" />
+    <ClInclude Include="..\code_files\include\dieharder_test_types.h" />
+    <ClInclude Include="..\code_files\include\diehard_2dsphere.h" />
+    <ClInclude Include="..\code_files\include\diehard_3dsphere.h" />
+    <ClInclude Include="..\code_files\include\diehard_birthdays.h" />
+    <ClInclude Include="..\code_files\include\diehard_bitstream.h" />
+    <ClInclude Include="..\code_files\include\diehard_count_1s_byte.h" />
+    <ClInclude Include="..\code_files\include\diehard_count_1s_stream.h" />
+    <ClInclude Include="..\code_files\include\diehard_craps.h" />
+    <ClInclude Include="..\code_files\include\diehard_dna.h" />
+    <ClInclude Include="..\code_files\include\diehard_operm5.h" />
+    <ClInclude Include="..\code_files\include\diehard_opso.h" />
+    <ClInclude Include="..\code_files\include\diehard_oqso.h" />
+    <ClInclude Include="..\code_files\include\diehard_parking_lot.h" />
+    <ClInclude Include="..\code_files\include\diehard_rank_32x32.h" />
+    <ClInclude Include="..\code_files\include\diehard_rank_6x8.h" />
+    <ClInclude Include="..\code_files\include\diehard_runs.h" />
+    <ClInclude Include="..\code_files\include\diehard_squeeze.h" />
+    <ClInclude Include="..\code_files\include\diehard_sums.h" />
+    <ClInclude Include="..\code_files\include\Dtest.h" />
+    <ClInclude Include="..\code_files\include\getopt.h" />
+    <ClInclude Include="..\code_files\include\libdieharder.h" />
+    <ClInclude Include="..\code_files\include\marsaglia_tsang_gcd.h" />
+    <ClInclude Include="..\code_files\include\marsaglia_tsang_gorilla.h" />
+    <ClInclude Include="..\code_files\include\output.h" />
+    <ClInclude Include="..\code_files\include\parse.h" />
+    <ClInclude Include="..\code_files\include\rgb_bitdist.h" />
+    <ClInclude Include="..\code_files\include\rgb_kstest_test.h" />
+    <ClInclude Include="..\code_files\include\rgb_lagged_sums.h" />
+    <ClInclude Include="..\code_files\include\rgb_lmn.h" />
+    <ClInclude Include="..\code_files\include\rgb_minimum_distance.h" />
+    <ClInclude Include="..\code_files\include\rgb_operm.h" />
+    <ClInclude Include="..\code_files\include\rgb_permutations.h" />
+    <ClInclude Include="..\code_files\include\rgb_persist.h" />
+    <ClInclude Include="..\code_files\include\rgb_timing.h" />
+    <ClInclude Include="..\code_files\include\rijndael-alg-fst.h" />
+    <ClInclude Include="..\code_files\include\skein.h" />
+    <ClInclude Include="..\code_files\include\skein_port.h" />
+    <ClInclude Include="..\code_files\include\snprintf.h" />
+    <ClInclude Include="..\code_files\include\static_get_bits.h" />
+    <ClInclude Include="..\code_files\include\std_test.h" />
+    <ClInclude Include="..\code_files\include\sts_monobit.h" />
+    <ClInclude Include="..\code_files\include\sts_runs.h" />
+    <ClInclude Include="..\code_files\include\sts_serial.h" />
+    <ClInclude Include="..\code_files\include\tests.h" />
+    <ClInclude Include="..\code_files\include\time_.h" />
+    <ClInclude Include="..\code_files\include\unistd.h" />
+    <ClInclude Include="..\code_files\include\user_template.h" />
+    <ClInclude Include="..\code_files\include\verbose.h" />
+    <ClInclude Include="..\code_files\include\Vtest.h" />
+    <ClInclude Include="..\code_files\include\Xtest.h" />
+    <ClInclude Include="FormAboutDiehard.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SettingsForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TableForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code_files\add_ui_rngs.cpp" />
+    <ClCompile Include="..\code_files\add_ui_tests.cpp" />
+    <ClCompile Include="..\code_files\bits.cpp" />
+    <ClCompile Include="..\code_files\chisq.cpp" />
+    <ClCompile Include="..\code_files\choose_rng.cpp" />
+    <ClCompile Include="..\code_files\countx.cpp" />
+    <ClCompile Include="..\code_files\dab_bytedistrib.cpp" />
+    <ClCompile Include="..\code_files\dab_dct.cpp" />
+    <ClCompile Include="..\code_files\dab_filltree.cpp" />
+    <ClCompile Include="..\code_files\dab_filltree2.cpp" />
+    <ClCompile Include="..\code_files\dab_monobit2.cpp" />
+    <ClCompile Include="..\code_files\dieharder.cpp" />
+    <ClCompile Include="..\code_files\dieharder_exit.cpp" />
+    <ClCompile Include="..\code_files\dieharder_rng_types.cpp" />
+    <ClCompile Include="..\code_files\dieharder_test_types.cpp" />
+    <ClCompile Include="..\code_files\diehard_2dsphere.cpp" />
+    <ClCompile Include="..\code_files\diehard_3dsphere.cpp" />
+    <ClCompile Include="..\code_files\diehard_birthdays.cpp" />
+    <ClCompile Include="..\code_files\diehard_bitstream.cpp" />
+    <ClCompile Include="..\code_files\diehard_count_1s_byte.cpp" />
+    <ClCompile Include="..\code_files\diehard_count_1s_stream.cpp" />
+    <ClCompile Include="..\code_files\diehard_craps.cpp" />
+    <ClCompile Include="..\code_files\diehard_dna.cpp" />
+    <ClCompile Include="..\code_files\diehard_operm5.cpp" />
+    <ClCompile Include="..\code_files\diehard_opso.cpp" />
+    <ClCompile Include="..\code_files\diehard_oqso.cpp" />
+    <ClCompile Include="..\code_files\diehard_parking_lot.cpp" />
+    <ClCompile Include="..\code_files\diehard_rank_32x32.cpp" />
+    <ClCompile Include="..\code_files\diehard_rank_6x8.cpp" />
+    <ClCompile Include="..\code_files\diehard_runs_working.cpp" />
+    <ClCompile Include="..\code_files\diehard_squeeze.cpp" />
+    <ClCompile Include="..\code_files\diehard_sums.cpp" />
+    <ClCompile Include="..\code_files\getopt.cpp" />
+    <ClCompile Include="..\code_files\help.cpp" />
+    <ClCompile Include="..\code_files\histogram.cpp" />
+    <ClCompile Include="..\code_files\kstest.cpp" />
+    <ClCompile Include="..\code_files\libdieharder.cpp" />
+    <ClCompile Include="..\code_files\list_rand.cpp" />
+    <ClCompile Include="..\code_files\list_rngs.cpp" />
+    <ClCompile Include="..\code_files\list_tests.cpp" />
+    <ClCompile Include="..\code_files\marsaglia_tsang_gcd.cpp" />
+    <ClCompile Include="..\code_files\marsaglia_tsang_gorilla.cpp" />
+    <ClCompile Include="..\code_files\output.cpp" />
+    <ClCompile Include="..\code_files\output_rnds.cpp" />
+    <ClCompile Include="..\code_files\parse.cpp" />
+    <ClCompile Include="..\code_files\parsecl.cpp" />
+    <ClCompile Include="..\code_files\prob.cpp" />
+    <ClCompile Include="..\code_files\random_seed.cpp" />
+    <ClCompile Include="..\code_files\rank.cpp" />
+    <ClCompile Include="..\code_files\rdieharder.cpp" />
+    <ClCompile Include="..\code_files\rgb_bitdist.cpp" />
+    <ClCompile Include="..\code_files\rgb_kstest_test.cpp" />
+    <ClCompile Include="..\code_files\rgb_lagged_sums.cpp" />
+    <ClCompile Include="..\code_files\rgb_lmn.cpp" />
+    <ClCompile Include="..\code_files\rgb_minimum_distance.cpp" />
+    <ClCompile Include="..\code_files\rgb_operm.cpp" />
+    <ClCompile Include="..\code_files\rgb_permutations.cpp" />
+    <ClCompile Include="..\code_files\rgb_persist.cpp" />
+    <ClCompile Include="..\code_files\rgb_timing.cpp" />
+    <ClCompile Include="..\code_files\rijndael-alg-fst.cpp" />
+    <ClCompile Include="..\code_files\rngav.cpp" />
+    <ClCompile Include="..\code_files\rngs_gnu_r.cpp" />
+    <ClCompile Include="..\code_files\rng_aes.cpp" />
+    <ClCompile Include="..\code_files\rng_ca.cpp" />
+    <ClCompile Include="..\code_files\rng_dev_arandom.cpp" />
+    <ClCompile Include="..\code_files\rng_dev_random.cpp" />
+    <ClCompile Include="..\code_files\rng_dev_urandom.cpp" />
+    <ClCompile Include="..\code_files\rng_empty_random.cpp" />
+    <ClCompile Include="..\code_files\rng_file_input.cpp" />
+    <ClCompile Include="..\code_files\rng_file_input_raw.cpp" />
+    <ClCompile Include="..\code_files\rng_kiss.cpp" />
+    <ClCompile Include="..\code_files\rng_stdin_input_raw.cpp" />
+    <ClCompile Include="..\code_files\rng_superkiss.cpp" />
+    <ClCompile Include="..\code_files\rng_threefish.cpp" />
+    <ClCompile Include="..\code_files\rng_uvag.cpp" />
+    <ClCompile Include="..\code_files\rng_XOR.cpp" />
+    <ClCompile Include="..\code_files\run_all_tests.cpp" />
+    <ClCompile Include="..\code_files\run_test.cpp" />
+    <ClCompile Include="..\code_files\sample.cpp" />
+    <ClCompile Include="..\code_files\set_globals.cpp" />
+    <ClCompile Include="..\code_files\skein_block64.cpp" />
+    <ClCompile Include="..\code_files\skein_block_ref.cpp" />
+    <ClCompile Include="..\code_files\skein_port.cpp" />
+    <ClCompile Include="..\code_files\static_get_bits.cpp" />
+    <ClCompile Include="..\code_files\std_test.cpp" />
+    <ClCompile Include="..\code_files\sts_monobit.cpp" />
+    <ClCompile Include="..\code_files\sts_runs.cpp" />
+    <ClCompile Include="..\code_files\sts_serial.cpp" />
+    <ClCompile Include="..\code_files\testbits.cpp" />
+    <ClCompile Include="..\code_files\time_.cpp" />
+    <ClCompile Include="..\code_files\time_rng.cpp" />
+    <ClCompile Include="..\code_files\timing.cpp" />
+    <ClCompile Include="..\code_files\user_template.cpp" />
+    <ClCompile Include="..\code_files\version.cpp" />
+    <ClCompile Include="..\code_files\Vtest.cpp" />
+    <ClCompile Include="..\code_files\Xtest.cpp" />
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="SettingsForm.cpp" />
+    <ClCompile Include="TableForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="en-US.resx" />
+    <EmbeddedResource Include="FormAboutDiehard.resx">
+      <DependentUpon>FormAboutDiehard.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en-US.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ru-RU.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.uk-UA.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ru-RU.resx" />
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableForm.resx">
+      <DependentUpon>TableForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uk-UA.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Diehard.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icons8-Ios7-Plants-Oak-Nut.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{57382034-CBBD-4260-82F6-0835085A0442}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Diehard</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>C:\Users\Александр\Desktop\Diehard\gsl\1.8\gsl-1.8\VC8\libgsl\Debug-DLL;C:\Users\Александр\Desktop\Diehard\gsl\1.8\gsl-1.8\VC8\libgslcblas\Debug-DLL;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Users\Александр\Desktop\Diehard\gsl\1.8\gsl-1.8;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Александр\Desktop\Diehard\gsl\1.8\gsl-1.8\VC8\libgslcblas\Debug-DLL;C:\Users\Александр\Desktop\Diehard\gsl\1.8\gsl-1.8\VC8\libgsl\Debug-DLL;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(SolutionDir)\gsl\1.8\gsl-1.8\VC8\libgsl\Release-DLL;$(SolutionDir)\gsl\1.8\gsl-1.8\VC8\libgslcblas\Release-DLL;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)\gsl\1.8\gsl-1.8;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\gsl\1.8\gsl-1.8\VC8\libgsl\Release-DLL;$(SolutionDir)\gsl\1.8\gsl-1.8\VC8\libgslcblas\Release-DLL;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;GSL_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libgsl_dll_d.lib;libgslcblas_dll_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;GSL_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libgsl_dll.lib;libgslcblas_dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
